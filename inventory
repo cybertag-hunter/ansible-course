@@ -1,2 +1,13 @@
+[Linux]
 192.168.2.100
+192.168.2.140
+
+[Cisco_Switch]
+Switch_4th ansible_host=192.168.2.15
+
+[Cisco_Nexus]
+DCA-Spine-1 ansible_host=192.168.2.192:32769
+DCA-Spine-2 ansible_host=192.168.2.192:32770
+DCB-Spine-1 ansible_host=192.168.2.192:32771
+DCB-Spine-2 ansible_host=192.168.2.192:32772
 
